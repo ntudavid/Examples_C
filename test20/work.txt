@@ -1,0 +1,39 @@
+test1 : 如果宣告變數沒有指定初始值，則其值為該記憶體配置時的原始數值。 
+
+test2 : 連續使用scanf讀取數值。輸入時可使用空格或enterr鍵區分。
+
+test3 : scanf中對於double型態必須使用 %lf (long floating)，若使用%f則導致讀取失敗，變數維持原本的數值。
+
+test4 : 使用scanf讀取特定格式中的參數值。若輸入時沒有遵從格式，則會導致讀取失敗。
+
+test5 : 整數相除仍為整數。小數部分一律被捨去。
+
+test6 : 整數溢位。若數值大於pow(2,31)-1，則發生溢位，數值變為其二元運算後二補數的結果。
+
+test7 : 判斷式 -> if...else if...else, switch, (cond)? com1:com2
+
+test8 : if condition為0時表示為false，非0時(即使為負數)表示為true 
+
+test9 : 迴圈 -> for, while, do...while
+
+test10: 迴圈中使用break/continue中斷或跳出迴圈。
+
+test11: 指標與記憶體配置
+
+test12: 陣列的宣告
+
+test13: 陣列與指標_1D
+
+test14: 陣列與指標_2D
+
+test15: 字串
+
+test16: 函數 -> call by value, call by address, call by reference
+
+test17: 應用 -> exponential function, sin function, bubble sort, gcd, check_prime, csv_read/write
+
+test18: 遞迴 -> fibonacci, summation, factorial, gcd
+
+test19: File I/O --> csvRead, csvWrite
+
+test20: 自定義結構 --> complex, coordinate
